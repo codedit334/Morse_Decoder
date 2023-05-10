@@ -20,26 +20,24 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [VET_CLINIC] <a name="about-project"></a>
+# 📖 [MORSE_DECORDER] <a name="about-project"></a>
 
-**[VET_CLINIC]** is a database containg data about animals, animals' owners, clinic employees and visits to the clinic
+**[MORSE_DECORDER]** is a database containg data about animals, animals' owners, clinic employees and visits to the clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+<summary>Client</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>Ruby</li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Name column for the animals]**
-- **[animals date_of_birth]**
-- **[animals weight_kg]**
+- **[decoding morse_code]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,21 +45,13 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-```sh
- gem install rails
-```
-
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git git@github.com:zeff96/vet_clinic.git
+  git git@github.com:codedit334/Morse_Decoder.git
 ```
 
 ### Install
@@ -71,22 +61,6 @@ Install this project with:
 ```sh
   cd my-project
   gem install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  bin/rails test test/models/article_test.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,8 +82,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Appointment scheduling.]**
-- [ ] **[Medication tracking.]**
+- [ ] **[decode any message size]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +90,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zeff96/vet_clinic/issues).
+Feel free to check the [issues page](https://github.com/codedit334/Morse_Decoder/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
