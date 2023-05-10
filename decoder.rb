@@ -1,4 +1,4 @@
-morse_code = {
+MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -28,7 +28,7 @@ morse_code = {
 }
 
 def decode_char(code)
-  morse_code[code]
+  MORSE_CODE[code]
 end
 
 def decode_word(word)
@@ -42,3 +42,5 @@ def decode(morse_message)
 end
 
 puts morse_code
+
+decode('.... . -.--   .--- ..- -.. .')
