@@ -39,5 +39,3 @@ def decode(morse_message)
   decoded_words = morse_words.map { |morse_word| decode_word(morse_word) }
   decoded_words.join(' ')
 end
-
-decode_char(".-")
