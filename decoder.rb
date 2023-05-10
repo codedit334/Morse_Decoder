@@ -5,3 +5,7 @@ morse_code = {
 def decode_char(code)
   morse_code[code]
 end
+
+def decode_word(word)
+  word.split.map { |char| decode_char(char) }.join
+end
